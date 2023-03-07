@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+}
+
+.header__header {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  padding: 40px 0 10px;
+
+  text-align: center;
+}
+
+.navigation__list {
+  list-style-type: none;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.5);
+  font-weight: 400;
+}
+.navigation__listItem {
+  padding: 15px 0;
+}
+.navigation__link {
+  text-decoration: none;
+  color: black;
+}
+.navigation__link:hover {
+  opacity: 0.7;
+}
+.navigation__link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.image {
+  width: 300px;
+  display: block;
+  margin: 50px auto 20px;
+  border-radius: 7px;
+}
+.section {
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+.section__header {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.table__tableCaption {
+  font-size: 18px;
+  margin: 30px 0 10px;
+}
+
+.table__tableHeaderRow,
+.table__tableHeaderCol {
+  padding: 10px;
+  border: 1px solid black;
+}
+.table__tableHeaderCol {
+  background-color: rgba(38, 108, 38, 0.5);
+}
+.table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+}
+.table__tableRow:nth-child(even) {
+  background-color: rgb(201, 202, 201, 0.5);
+}
+.button {
+  display: block;
+
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: rgb(72, 138, 67);
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(72, 138, 67);
+  font-size: 15px;
+}
+.button:hover {
+  background-color: rgb(72, 138, 67, 0.2);
+  border: 1px solid rgb(72, 138, 67, 0.2);
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  margin: 40px 0;
+}

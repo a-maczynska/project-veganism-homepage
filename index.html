@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=PT+Mono&family=Poppins:wght@500&family=Roboto:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__header">Weganizm</h1>
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__listItem">
+              <a class="navigation__link" href="#weganizm">Weganizm</a>
+            </li>
+            <li class="navigation__listItem">
+              <a class="navigation__link" href="#animalProdukts"
+                >Produkty odzwierzęce</a
+              >
+            </li>
+
+            <li class="navigation__listItem">
+              <a class="navigation__link" href="#animalProductSubstitutes"
+                >Zamienniki produktów odzwierzęcych</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <img
+          class="image"
+          src="src/images/thomas-le-pRJhn4MbsMM-unsplash.jpg"
+          alt="Bowl of vegan food"
+        />
+      </header>
+      <main>
+        <section class="section" id="weganizm">
+          <h2 class="section__header">Weganizm</h2>
+          Weganizm jest stylem życia, w którym rezygnuje się ze spożywania
+          produktów zwierzęcych. Dieta wegańska polega na rezygnacji ze
+          spożywania mięsa oraz produktów pochodzenia zwierzęcego np. nabiału,
+          miodu. Weganie nie noszą również ubrań powstałych z surowców
+          odzwierzęcych np. skóry.
+        </section>
+        <section class="section" id="animalProdukts">
+          <h2 class="section__header">Produkty odzwierzęce</h2>
+          Do tych produktów zalicza się wszystkie produkty pochodzące od
+          zwierząt. Przykładami takich produktów są: mięso, jaja, nabiał, miód,
+          skóra, wełna, smalec, żelatyna i wiele innych.
+        </section>
+        <section class="section" id="animalProductSubstitutes">
+          <table class="table">
+            <caption class="table__tableCaption">
+              Zamienniki produktów odzwierzęcych
+            </caption>
+            <tr class="table__tableRow">
+              <th class="table__tableHeaderCol" scope="col">
+                Produkt odzwierzęcy
+              </th>
+              <th class="table__tableHeaderCol" scope="col">
+                Przykładowe zamienniki w diecie roślinnej
+              </th>
+            </tr>
+            <tr class="table__tableRow">
+              <td class="table">Mięso</td>
+              <td class="table">Tofu, tempeh, teksturowane białko sojowe</td>
+            </tr>
+            <tr class="table__tableRow">
+              <td class="table">Mleko</td>
+              <td class="table">Napoje roślinne sojowe, ryżowe</td>
+            </tr>
+            <tr class="table__tableRow">
+              <td class="table">Ser</td>
+              <td class="table">
+                Ser z soi / orzechów, nieaktywne płatki drożdżowe
+              </td>
+            </tr>
+
+            <tr class="table__tableRow">
+              <td class="table">Jajka</td>
+              <td class="table">Siemie lniane + woda</td>
+            </tr>
+          </table>
+        </section>
+        <button class="button" id="button">Kliknij tutaj 🍁</button>
+      </main>
+
+      <footer class="footer">Coded by Agata Mączyńska</footer>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
